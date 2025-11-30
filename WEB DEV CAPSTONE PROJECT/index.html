@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZestyEats – Food Delivery</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Zesty<span>Eats</span></div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#restaurants">Restaurants</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#app">App</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="btn btn-outline">Login</button>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Food delivery made simple</p>
+          <h1>Delicious meals delivered fresh to your doorstep.</h1>
+          <p class="hero-subtitle">
+            Order from nearby top-rated restaurants and get hot, tasty food in
+            minutes. ZestyEats connects you with the best food around you.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg">Order Now</button>
+            <button class="btn btn-ghost">View Restaurants</button>
+          </div>
+        </div>
+
+        <div class="hero-image-card">
+          <img
+            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80"
+            alt="Tasty food plates on a table"
+          />
+        </div>
+      </div>
+
+      <!-- search bar -->
+      <div class="search-wrapper">
+        <div class="container">
+          <div class="search-card">
+            <input type="text" placeholder="Enter your delivery location" />
+            <select>
+              <option>All categories</option>
+              <option>Pizza</option>
+              <option>Burgers</option>
+              <option>Sushi</option>
+              <option>Indian</option>
+              <option>Chinese</option>
+            </select>
+            <button class="btn btn-primary w-100-mobile">Search</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section" id="categories">
+      <div class="container">
+        <h2 class="section-title">Browse by Category</h2>
+        <div class="category-row">
+          <div class="category-card">
+            <div class="category-icon">🍕</div>
+            <div class="category-name">Pizza</div>
+            <div class="category-meta">Cheesy & wood-fired</div>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🍔</div>
+            <div class="category-name">Burgers</div>
+            <div class="category-meta">Loaded & juicy</div>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🍣</div>
+            <div class="category-name">Sushi</div>
+            <div class="category-meta">Fresh & authentic</div>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🍛</div>
+            <div class="category-name">Indian</div>
+            <div class="category-meta">Spicy curries</div>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🥡</div>
+            <div class="category-name">Chinese</div>
+            <div class="category-meta">Noodles & more</div>
+          </div>
+
+          <div class="category-card">
+            <div class="category-icon">🧁</div>
+            <div class="category-name">Desserts</div>
+            <div class="category-meta">Cakes & sweets</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restaurants -->
+    <section class="section" id="restaurants">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Restaurants</h2>
+          <p>Handpicked places loved by our customers.</p>
+        </div>
+
+        <div class="restaurant-grid">
+          <article class="restaurant-card">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80"
+              alt="Modern restaurant interior"
+            />
+            <div class="restaurant-body">
+              <div class="restaurant-name">Urban Dine</div>
+              <div class="restaurant-tags">Continental, Italian</div>
+              <div class="restaurant-meta">
+                <div class="rating">
+                  <span>⭐</span><span>4.8</span>
+                </div>
+                <span>35 min • Free delivery</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="restaurant-card">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+              alt="Burgers with fries"
+            />
+            <div class="restaurant-body">
+              <div class="restaurant-name">Stacked Grill</div>
+              <div class="restaurant-tags">Burgers, Fast Food</div>
+              <div class="restaurant-meta">
+                <div class="rating">
+                  <span>⭐</span><span>4.6</span>
+                </div>
+                <span>25 min • $2 delivery</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="restaurant-card">
+            <img
+              src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=900&q=80"
+              alt="Sushi platter"
+            />
+            <div class="restaurant-body">
+              <div class="restaurant-name">Sakura Sushi</div>
+              <div class="restaurant-tags">Japanese, Sushi</div>
+              <div class="restaurant-meta">
+                <div class="rating">
+                  <span>⭐</span><span>4.7</span>
+                </div>
+                <span>30 min • Free delivery</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="restaurant-card">
+            <img
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80"
+              alt="Indian curry dishes"
+            />
+            <div class="restaurant-body">
+              <div class="restaurant-name">Curry Corner</div>
+              <div class="restaurant-tags">Indian, North Indian</div>
+              <div class="restaurant-meta">
+                <div class="rating">
+                  <span>⭐</span><span>4.5</span>
+                </div>
+                <span>40 min • $1.5 delivery</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offers -->
+    <section class="section section-alt" id="offers">
+      <div class="container">
+        <h2 class="section-title">Promo Offers</h2>
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-icon">🎉</div>
+            <div>
+              <div class="offer-title">Flat 30% OFF on first order</div>
+              <p class="offer-text">
+                New to ZestyEats? Use code <strong>WELCOME30</strong> and enjoy big
+                savings on your first meal.
+              </p>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-icon">🚚</div>
+            <div>
+              <div class="offer-title">Free delivery above $20</div>
+              <p class="offer-text">
+                Order more, pay less. Free delivery for all orders above $20 in
+                selected locations.
+              </p>
+            </div>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-icon">🍔</div>
+            <div>
+              <div class="offer-title">Buy 1 Get 1 on Burgers</div>
+              <p class="offer-text">
+                Every Friday, double the fun with BOGO deals on selected burger
+                joints.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                class="avatar"
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80"
+                alt="Happy customer"
+              />
+              <div>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              “ZestyEats makes ordering so easy. Food always arrives hot and on
+              time. Interface is super clean and simple.”
+            </p>
+            <div class="testimonial-name">Aman V.</div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                class="avatar"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+                alt="Smiling customer"
+              />
+              <div>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              “Great selection of restaurants and the offers are amazing. I use
+              it almost every week.”
+            </p>
+            <div class="testimonial-name">Riya S.</div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                class="avatar"
+                src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?auto=format&fit=crop&w=300&q=80"
+                alt="Customer portrait"
+              />
+              <div>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              “Tracking, support and payment options are all really smooth. My
+              go-to app for quick lunches.”
+            </p>
+            <div class="testimonial-name">Jordan L.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- App section -->
+    <section class="section section-alt" id="app">
+      <div class="container app-grid">
+        <div>
+          <h2 class="section-title">Get the ZestyEats App</h2>
+          <p class="hero-subtitle">
+            Take ZestyEats wherever you go. Track your orders live, save your
+            favourite spots and unlock app‑only deals.
+          </p>
+
+          <div class="store-buttons">
+            <!-- Google Play button -->
+            <button class="store-btn">
+              <span class="store-btn-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googleplay.svg"
+                  alt="Google Play icon"
+                  class="store-btn-icon-img"
+                >
+              </span>
+              <span class="store-btn-text">
+                <span>GET IT ON</span>
+                <span class="store-btn-label">Google Play</span>
+              </span>
+            </button>
+
+            <!-- App Store button -->
+            <button class="store-btn">
+              <span class="store-btn-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/apple.svg"
+                  alt="Apple icon"
+                  class="store-btn-icon-img"
+                >
+              </span>
+              <span class="store-btn-text">
+                <span>Download on the</span>
+                <span class="store-btn-label">App Store</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="app-visual">
+          <div class="phone-mock">
+            <div class="phone-inner">
+              <div class="phone-pill"></div>
+              <div class="phone-row">
+                <div>Nearby</div>
+                <div class="phone-tag">30 min</div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-title">Urban Dine</div>
+                <div class="phone-card-text">
+                  4.8 ★ • Italian • 1.2 km
+                </div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-title">Stacked Grill</div>
+                <div class="phone-card-text">
+                  4.6 ★ • Burgers • Free delivery
+                </div>
+              </div>
+              <div class="phone-footer">
+                <span>Now delivering</span>
+                <span>15–25 min</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Zesty<span>Eats</span></div>
+          <p class="footer-intro">
+            Order from your favourite restaurants and discover new flavours
+            across your city.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Cities Served</h4>
+          <ul>
+            <li>New York</li>
+            <li>Los Angeles</li>
+            <li>Chicago</li>
+            <li>Houston</li>
+            <li>Miami</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: support@zestyleats.com</li>
+            <li>Phone: +1 234 567 890</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="footer-social">
+            <span>🌐</span>
+            <span>🐦</span>
+            <span>📸</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2024 ZestyEats. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
